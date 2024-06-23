@@ -1,0 +1,36 @@
+/* body {
+    background-image: url(syam.jpg);
+} */
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 5px solid #fff;
+}
+h3 {
+    font-size: large;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media .btn {
+    font-size: 1.5rem;
+}
+
+@media (min-width: 768px) {
+    .sidebar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 200px;
+        z-index: 100;
+        padding-top: 20px;
+    }
+
+    .content {
+        margin-left: 200px;
+    }
+}
